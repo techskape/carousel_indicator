@@ -48,6 +48,7 @@ class SlidePainter extends BasePainter {
   SlidePainter(CarouselIndicator widget, double page, Paint paint)
       : super(widget, page, paint);
 
+
   @override
   void draw(Canvas canvas, double space, double width,double height, double radius,double cornerRadius) {
    canvas.drawRRect(
