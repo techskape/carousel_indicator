@@ -1,3 +1,6 @@
+## 1.0.3
+   * Bug Fix
+
 ## 1.0.2
    *Minor updates
 
