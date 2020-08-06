@@ -18,10 +18,10 @@ packages:
   carousel_indicator:
     dependency: "direct main"
     description:
-      name: carousel_indicator
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.3"
   carousel_slider:
     dependency: transitive
     description:

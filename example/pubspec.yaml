@@ -23,7 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  carousel_indicator: any
+  carousel_indicator: 
+    path: ../
   
 
 
