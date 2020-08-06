@@ -21,14 +21,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.0.3"
-  carousel_slider:
-    dependency: transitive
-    description:
-      name: carousel_slider
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.1"
+    version: "1.0.4"
   characters:
     dependency: transitive
     description:
