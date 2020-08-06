@@ -1,6 +1,10 @@
-# carouselindicator
+# carousel_indicator
 
-flutter carousel indicator.
+A Minimal and Simple carousel indicator library.
+
+# Author
+
+Tech Skape (Love K.) techskape@gmail.com
 
 ## Getting Started
 
