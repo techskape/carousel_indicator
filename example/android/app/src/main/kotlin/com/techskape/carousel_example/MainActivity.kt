@@ -1,4 +1,4 @@
-package com.techskape.carouselindicator
+package com.techskape.carousel_example
 
 import io.flutter.embedding.android.FlutterActivity
 
