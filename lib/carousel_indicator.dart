@@ -43,8 +43,8 @@ class CarouselIndicator extends StatefulWidget {
     this.color: Colors.white30,
     this.index,
     this.activeColor: Colors.white,
-  })  : assert(count != null && count!=0),
-        assert(index != null && index>=0),
+  })  : assert(count != null && count != 0),
+        assert(index != null && index >= 0),
         super(key: key);
 
   @override
