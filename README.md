@@ -8,7 +8,7 @@ Tech Skape (Love K.) techskape@gmail.com
 
 # Screenshot
 
-    ![showcases](https://github.com/techskape/carousel_indicator/blob/master/screenshots/2020-08-06-18-48-46.gif?raw=true)
+![showcases](https://github.com/techskape/carousel_indicator/blob/master/screenshots/2020-08-06-18-48-46.gif)
 
 ## Example
 ```
