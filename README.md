@@ -11,7 +11,7 @@ Tech Skape (Love K.) techskape@gmail.com
     ![alt-text](https://github.com/techskape/carousel_indicator/blob/master/screenshots/2020-08-06-18-48-46.gif?raw=true)
 
 ## Example
-
+```
 import 'package:carousel_indicator/carousel_indicator.dart';
 import 'package:flutter/material.dart';
 
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
+```
 
 ## Getting Started
 
