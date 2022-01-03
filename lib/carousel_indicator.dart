@@ -16,7 +16,7 @@ class CarouselIndicator extends StatefulWidget {
   final double space;
 
   /// count of indicator
-  final int count;
+  final int? count;
 
   /// active color
   final Color activeColor;
@@ -30,10 +30,10 @@ class CarouselIndicator extends StatefulWidget {
   /// duration for slide animation
   final int animationDuration;
 
-  final int index;
+  final int? index;
 
   CarouselIndicator({
-    Key key,
+    Key? key,
     this.width: 20.0,
     this.height: 6,
     this.space: 5.0,
@@ -56,13 +56,13 @@ class CarouselIndicator extends StatefulWidget {
 class _CarouselIndicatorState extends State<CarouselIndicator>
     with TickerProviderStateMixin {
   /// [Tween] object of type double
-  Tween<double> _tween;
+  late Tween<double> _tween;
 
   /// [AnimationController] object
-  AnimationController _animationController;
+  late AnimationController _animationController;
 
   /// [Aniamtion] object
-  Animation _animation;
+  late Animation _animation;
 
   /// [Paint] object to paint our indicator
   Paint _paint = new Paint();
@@ -75,7 +75,7 @@ class _CarouselIndicatorState extends State<CarouselIndicator>
   @override
   Widget build(BuildContext context) {
     Widget child = new SizedBox(
-      width: widget.count * widget.width + (widget.count - 1) * widget.space,
+      width: widget.count! * widget.width + (widget.count! - 1) * widget.space,
       height: widget.height,
       child: CustomPaint(
         painter: _createPainer(),
@@ -101,11 +101,11 @@ class _CarouselIndicatorState extends State<CarouselIndicator>
         _animationController.reset();
 
         /// for each new index we want to change value so setting [_tween] to (oldWidget.index,widget.index) so animation tween from old position to new position rather not start from 0.0 again and again.
-        createAnimation(oldWidget.index.toDouble(), widget.index.toDouble());
+        createAnimation(oldWidget.index!.toDouble(), widget.index!.toDouble());
         _animationController.forward();
       } else {
         _animationController.reset();
-        createAnimation(oldWidget.index.toDouble(), 0.0);
+        createAnimation(oldWidget.index!.toDouble(), 0.0);
         _animationController.forward();
       }
     }
