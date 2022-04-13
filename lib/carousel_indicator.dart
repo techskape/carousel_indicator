@@ -1,7 +1,6 @@
 library carousel_indicator;
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'base_painter.dart';
 

@@ -1,3 +1,6 @@
+## 1.0.6
+   *Null Safety Added
+
 ## 1.0.5
    *Example and Screenshots Added.
 
